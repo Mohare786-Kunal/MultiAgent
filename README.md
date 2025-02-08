@@ -1,6 +1,6 @@
-# Multi-Agent Automation Platform with Groclake
+# Multi-Agent AI-Assistant 
 
-This project is a multi-agent automation platform that leverages Groclake’s suite of tools—**ModelLake**, **VectorLake**, and **DataLake**—to perform retrieval-augmented generation (RAG) tasks. The platform is designed to process natural language commands and execute corresponding operations across a variety of applications such as GitHub, Gmail, Photos, and more.
+This project is a multi-agent automation platform designed to process natural language commands and execute corresponding operations across a variety of applications such as GitHub, Gmail, Photos, and more.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This project is a multi-agent automation platform that leverages Groclake’s su
 
 This project provides a unified interface to interact with multiple services using natural language. When a user sends a command (e.g., "Create a private repository named 'test' with README"), the platform uses Groclake's ModelLake to convert the command into a structured JSON instruction. Depending on the instruction, the appropriate agent (e.g., GitHub Agent, Gmail Agent, Photos Agent) executes the corresponding operation using each service's API.
 
-The core idea is to use Groclake’s RAG capabilities to:
+The core idea is to use Agents' capabilities to:
 - **Parse natural language commands.**
 - **Augment generation with retrieval context** (via VectorLake and DataLake if needed).
 - **Execute operations** across multiple services.

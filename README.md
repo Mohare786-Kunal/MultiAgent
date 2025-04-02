@@ -4,7 +4,7 @@
 
 # Multi-Agent AI-Assistant 
 
-![Demo](demo.mp4)
+![Demo](MultiAgent.mp4)
 
 This project is a multi-agent automation platform designed to process natural language commands and execute corresponding operations across a variety of applications such as GitHub, Gmail, Photos, and more.
 
